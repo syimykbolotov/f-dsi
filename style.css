@@ -1,0 +1,187 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+#header {
+  padding: 30px 0;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-nav a {
+  margin: 0 30px;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f2e35cc;
+}
+
+.header-nav select {
+  margin: 0 30px;
+  border: none;
+  font-size: 18px;
+  font-weight: 400;
+  color: #1f2e35cc;
+  background: none;
+}
+
+.icons a {
+  color: #1f2e35cc;
+  font-size: 24px;
+  margin: 0 10px;
+}
+
+#hero {
+  padding: 51px 0 90px 0;
+}
+
+.hero-text button {
+  padding: 12px 32px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background: #ee4248;
+  border: none;
+  border-radius: 8px;
+}
+
+.hero-text h1 {
+  color: #1f2e35;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 133.687%; /* 64.17px */
+  margin-bottom: 24px;
+}
+
+.hero-text h1 span {
+  color: #ee4248;
+}
+
+.hero-text p {
+  color: #30444e;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 144.687%; /* 28.937px */
+  margin-bottom: 24px;
+}
+
+.hero {
+  display: flex;
+  align-items: center;
+  margin-top: 59px;
+}
+
+#welcome {
+  background: #f6f6f6;
+  padding: 30px 0;
+}
+
+.welcome img {
+  margin: 0 40px;
+}
+
+#product {
+  height: 459px;
+  padding: 90px;
+}
+
+.product h1 {
+  color: #1f2e35;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 500;
+  line-height: 133.687%; /* 42.78px */
+  margin-bottom: 48px;
+}
+
+.blok button {
+  padding: 8px 16px;
+  background-color: #ee4248;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  border-radius: 8px;
+}
+
+.blok h2 {
+  color: #ee4248;
+  font-size: 28px;
+  font-weight: 500;
+  margin: 15px 0;
+}
+
+.bloks {
+  display: flex;
+  justify-content: space-between;
+}
+
+.blok p {
+  margin: 15px 0;
+  color: #30444e;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 150%; /* 27px */
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.adress h1 {
+  color: black;
+  font-size: 18px;
+  font-weight: 500;
+  margin: 10px 0 8px 0;
+}
+
+.contact p {
+  color: #263238;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 149.187%; /* 26.854px */
+}
+
+.phone h1 {
+}
+
+.phone {
+  margin-left: 80px;
+}
+
+#footer {
+  background-color: #ee4248;
+}
+
+.footer p {
+  padding: 22px;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
